@@ -11,34 +11,3 @@ body {
     background-color: black;
 }
 
-.container {
-    width: 100%;
-    max-width: 512px;
-    padding: 40px 24px;
-
-}
-
-.server {
-    position: relative;
-    background: #25301c;
-    padding: 40px 24px;
-    border-radius: 30px;
-    margin-bottom: 40px;
-    text-align: left;
-}
-
-.chat {
-    position: absolute;
-    position: relative;
-    background: #352721;
-    padding: 40px 24px;
-    border-radius: 30px;
-    margin-bottom: 40px;
-    text-align: left;
-
-}
-
-.elenco {
-    color: antiquewhite;
-
-}
