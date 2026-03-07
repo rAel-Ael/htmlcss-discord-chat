@@ -6,8 +6,140 @@
 
 body {
     margin: 0 auto;
-    display: flex;
+    width: 100%;
     justify-content: center;
     background-color: black;
+    max-width: 512px;
+    position: relative;
+
 }
 
+
+/* container */
+.container {
+    display: flex;
+
+}
+
+
+/* Header */
+
+.sidebar {
+    display: flex;
+    width: 70px;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+
+
+}
+
+.sidebar img {
+    width: 70px;
+}
+
+.server {}
+
+.icon {
+    display: flex;
+
+}
+
+.home {
+    display: flex;
+}
+
+
+
+
+/* main */
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.top-chat {
+    display: flex;
+
+    color: #fff;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+
+}
+
+.message {
+    display: flex;
+}
+
+.search-friends {
+    display: flex;
+
+
+
+}
+
+.chats {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+    
+
+}
+
+.mono-chat {
+    display: flex;
+}
+
+.pic {
+    display: flex;
+    width: 70px;
+    position: relative;
+    flex-direction: column;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    display: flex;
+
+    color: #fff;
+    background-color: rgb(54, 53, 65);
+    position: absolute;
+
+}
+
+.footer-button {
+    display: flex;
+    color: #fff;
+
+
+}
+
+.footer-img {
+    display: flex;
+    border-radius: 40px;
+    width: 70px;
+
+}
