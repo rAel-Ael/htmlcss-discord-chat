@@ -18,6 +18,8 @@ body {
 /* container */
 .container {
     display: flex;
+    padding-top: 4.5px;
+    background-color: rgb(68, 68, 48);
 
 }
 
@@ -26,90 +28,52 @@ body {
 
 .sidebar {
     display: flex;
-    width: 70px;
     height: 100vh;
     position: relative;
     flex-direction: column;
-
-
+    background-color: rgb(36, 36, 41);
+    padding: 0 10px;
+    gap: 10px;
 }
 
 .sidebar img {
-    width: 70px;
-}
-
-.server {}
-
-.icon {
     display: flex;
-
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
 }
 
-.home {
-    display: flex;
-}
+.icon img {
+    border-radius: 50%;
 
+}
 
 
 
 /* main */
-main {
-    display: flex;
-    flex-wrap: wrap;
-
-
-
-
-}
-
 .top-chat {
     display: flex;
-
-    color: #fff;
-    align-items: center;
+    color: white;
     position: absolute;
+    padding-left: 10px;
+    font-family: "DM Sans", sans-serif;
     flex-direction: column;
-
 }
 
-.message {
+.search-friends i {
     display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 8px;
+
+
 }
 
-.search-friends {
+button {
     display: flex;
-
-
-
+    appearance: none;
+    border-radius: 10px;
 }
-
-.chats {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    
-    
-
-}
-
-.mono-chat {
-    display: flex;
-}
-
-.pic {
-    display: flex;
-    width: 70px;
-    position: relative;
-    flex-direction: column;
-
-
-
-}
-
-
-
-
-
 
 
 
@@ -120,26 +84,3 @@ main {
 
 
 /* footer */
-
-footer {
-    display: flex;
-
-    color: #fff;
-    background-color: rgb(54, 53, 65);
-    position: absolute;
-
-}
-
-.footer-button {
-    display: flex;
-    color: #fff;
-
-
-}
-
-.footer-img {
-    display: flex;
-    border-radius: 40px;
-    width: 70px;
-
-}
