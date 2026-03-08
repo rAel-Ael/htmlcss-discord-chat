@@ -54,7 +54,7 @@ main {
     width: 100%;
 }
 
-.top-chat {
+.top {
     color: white;
     padding: 20px 10px 0;
     font-family: "DM Sans", sans-serif;
@@ -89,13 +89,27 @@ main {
     border-radius: 10px;
     border: transparent;
 
+}
 
+.pic img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
 
 }
 
+.chat {
+    display: flex;
 
+}
 
-
+.chats {
+    display: flex;
+    color: white;
+    
+    flex-direction: column;
+}
 
 
 
