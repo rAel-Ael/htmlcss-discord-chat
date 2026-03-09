@@ -9,7 +9,7 @@ body {
     width: 100%;
     justify-content: center;
     background-color: black;
-    max-width: 512px;
+    max-width: 500px;
     position: relative;
 
 }
@@ -28,6 +28,7 @@ body {
 .sidebar {
     display: flex;
     height: 100vh;
+    
     position: relative;
     flex-direction: column;
     background-color: rgb(36, 36, 41);
@@ -39,7 +40,7 @@ body {
     display: flex;
     width: 60px;
     height: 60px;
-    object-fit: cover;
+
 }
 
 .icon img {
@@ -52,6 +53,7 @@ body {
 /* main */
 main {
     width: 100%;
+    height: 100vh;
 }
 
 .top {
@@ -66,7 +68,7 @@ main {
 .due-bottoni {
     display: flex;
     gap: 10px;
-    justify-content: center;
+
 
 }
 
@@ -91,27 +93,67 @@ main {
 
 }
 
-.pic img {
-    display: flex;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-
-}
-
-.chat {
-    display: flex;
-
-}
+/* chat */
 
 .chats {
     display: flex;
     color: white;
-    
     flex-direction: column;
+    position: relative;
+    padding: 40px 20px 0;
+    gap: 10px;
+
+}
+
+.mono-chat {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+
+.name {
+    display: flex;
+    flex-basis: 200px;
+    height: 28px;
+
+}
+
+.chat {
+
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 
-
-
 /* footer */
+footer {
+    display: flex;
+    background-color: rgb(47, 47, 70);
+    padding: 0;
+    height: 100vh;
+    height: 80px;
+    max-width: 500px;
+    align-content: center;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+}
+
+.profilo
+ img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+
+}
